@@ -26,5 +26,6 @@ body {
 	color: #666;
 	text-align: center;
 	align-items: end;
+	display: grid
 	/* margin-top: 50px; */
 }
