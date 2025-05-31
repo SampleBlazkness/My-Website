@@ -1,32 +1,54 @@
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
 	font-family: Arial, sans-serif;
-	margin: 0;
-	padding: 0;
-	height: 100vh;
 	background-color: #ffffff;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	position: relative;
+	height: 100vh;
+	background-image: url("../img/bg.jpg");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .greeting {
-	font-size: 3em;
+	font-size: 2.8em;
 	color: #333;
 	text-align: center;
+	position: absolute;
+	top: 20px;
+
+}
+
+.link {
+	font-size: 5em;
+}
+
+.link a:link,
+.link a:focus,
+.link a:visited {
+	text-decoration: none;
+	color: #ff0000;
+}
+
+.link a:active,
+.link a:hover {
+	text-decoration: none;
+	color: #aa55ff
 }
 
 .contact {
 	font-size: 0.8em;
-	color: #666;
+	color: #ffffff;
 	text-align: center;
-	padding: 20px 0;
-	width: 100%;
 	position: absolute;
 	bottom: 20px;
 }
