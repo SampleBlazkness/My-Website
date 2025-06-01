@@ -28,6 +28,12 @@ body {
 
 }
 
+.description {
+	font-size: 1em;
+	color: #ff5e00;
+	text-align: center;
+}
+
 .link {
 	font-size: 5em;
 }
