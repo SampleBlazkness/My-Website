@@ -65,5 +65,11 @@ body {
 
 .nav {
     font-size: 1em;
-    text-align: right;
+    position: absolute;
+}
+
+.nav p {
+    left: 20px;
+    position: absolute;
+    top: 5px;
 }
